@@ -24,22 +24,19 @@
     <title>YouTube</title>
   </head>
   <body>
-    <div class="main-screen">
-      <input type="checkbox" id="check" />
-      <div class="navbar">
-        <div class="option-logo">
-          <div class="option-on">
-            <div class="option-on-button">
-              <label for="check">
-                <i class="fa-solid fa-bars"></i>
-              </label>
-            </div>
-          </div>
-
-          <div class="logo-div">
-            <img src="./assets/Untitled-1.jpg" />
-          </div>
+    <div class="navbar">
+      <div class="option-logo">
+        <div class="sidebar-toggle-nav" id="sidebarToggleNav">
+          <i class="fa-solid fa-bars"></i>
         </div>
+
+                 <div class="logo-div">
+           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">
+             <img src="./assets/YouTubeLogoOnly.png" alt="YouTube" />
+             <span class="youtube-text">YouTube</span>
+           </a>
+         </div>
+      </div>
 
         <div class="search hide-search">
           <input
@@ -76,27 +73,113 @@
         </div>
       </div>
 
-      <div class="fix-sidebar">
-        <div class="element">
-          <i class="fa-solid fa-house"></i>
-          <p>Home</p>
-        </div>
-
-        <div class="element">
-          <i class="fa-solid fa-play"></i>
-          <p>Shorts</p>
-        </div>
-
-        <div class="element">
-          <i class="fa-solid fa-book"></i>
-          <p>Subscriptions</p>
-        </div>
-
-        <div class="element">
-          <i class="fa-solid fa-clapperboard"></i>
-          <p>You</p>
-        </div>
-      </div>
+             <!-- Enhanced YouTube-style Sidebar -->
+       <div class="sidebar" id="sidebar">
+         <div class="sidebar-content">
+           <div class="sidebar-section">
+             <div class="sidebar-item active">
+               <i class="fa-solid fa-house"></i>
+               <span class="sidebar-text">Home</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-play"></i>
+               <span class="sidebar-text">Shorts</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-book"></i>
+               <span class="sidebar-text">Subscriptions</span>
+             </div>
+           </div>
+           
+           <div class="sidebar-section">
+             <div class="sidebar-item">
+               <i class="fa-solid fa-clapperboard"></i>
+               <span class="sidebar-text">You</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-history"></i>
+               <span class="sidebar-text">History</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-clock"></i>
+               <span class="sidebar-text">Watch Later</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-thumbs-up"></i>
+               <span class="sidebar-text">Liked Videos</span>
+             </div>
+           </div>
+           
+           <div class="sidebar-section">
+             <div class="sidebar-item">
+               <i class="fa-solid fa-folder"></i>
+               <span class="sidebar-text">Library</span>
+             </div>
+           </div>
+           
+           <div class="sidebar-section">
+             <div class="sidebar-item">
+               <i class="fa-solid fa-compass"></i>
+               <span class="sidebar-text">Explore</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-shopping-bag"></i>
+               <span class="sidebar-text">Shopping</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-music"></i>
+               <span class="sidebar-text">Music</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-film"></i>
+               <span class="sidebar-text">Movies</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-broadcast-tower"></i>
+               <span class="sidebar-text">Live</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-gamepad"></i>
+               <span class="sidebar-text">Gaming</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-newspaper"></i>
+               <span class="sidebar-text">News</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-futbol"></i>
+               <span class="sidebar-text">Sports</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-graduation-cap"></i>
+               <span class="sidebar-text">Courses</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-palette"></i>
+               <span class="sidebar-text">Fashion & Beauty</span>
+             </div>
+             
+             <div class="sidebar-item">
+               <i class="fa-solid fa-podcast"></i>
+               <span class="sidebar-text">Podcast</span>
+             </div>
+           </div>
+         </div>
+       </div>
 
       <div class="suggestionbar">
         <button>All</button>
@@ -114,9 +197,9 @@
         <button>Comedy</button>
         <button>Standups</button>
         <button>Tourism</button>
-        <button>Recently_Uploaded</button>
+        <button>Recently Uploaded</button>
         <button>Watch</button>
-        <button>New_to_you</button>
+        <button>New to you</button>
         <button
           style="
             border: none;
